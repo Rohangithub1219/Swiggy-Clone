@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Swiggy Clone</title>
+    <link rel="shortcut icon" href="swlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="swiggy.png" alt="Swiggy Logo">
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="https://www.swiggy.com/search" onclick="showSection('search')">Search</a></li>
+                <li><a href="https://www.swiggy.com/offers-near-me" onclick="showSection('offers')">Offers</a></li>
+                <li><a href="https://www.swiggy.com/about-us/contact-us/" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+            <button id="menu-toggle">☰</button>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="banner1.jpg" alt="Banner Image 1">
+            <img src="Banner (1).png" alt="Banner Image 2" style="display:none;">
+            <img src="banner2.png" alt="Banner Image 3" style="display:none;">
+        </section>
+        <section class="search-bar">
+            <input type="text" id="search" placeholder="Search for restaurants...">
+        </section>
+        <section class="restaurants">
+            <div class="restaurant">
+                <img src="restaurant.jpg" alt="Restaurant 1">
+                <h2>Pizza Hut</h2>
+                <p>Best dishes: Pizza, Pasta</p>
+            </div>
+            <div class="restaurant">
+                <img src="restaurant1.jpg" alt="Restaurant 2">
+                <h2>Raman NOW sushi TO</h2>
+                <p>Best dishes: Sushi, Ramen</p>
+            </div>
+            <div class="restaurant">
+                <img src="a2b.png" alt="Restaurant 2">
+                <h2>A2B</h2>
+                <p>Best dishes: Idly, dosa,pongal,poori</p>
+            </div>
+            <div class="restaurant">
+                <img src="gupta.png" alt="Restaurant 2">
+                <h2>Sree Gupta Bhavan</h2>
+                <p>Best dishes: Chats,sweets and snacks</p>
+            </div>
+            <!-- Add more restaurants as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Swiggy Clone. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
